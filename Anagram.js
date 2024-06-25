@@ -51,7 +51,6 @@ function isAnagram(s1, s2) {
     obj2.set(s2[i], (obj2.get(s2[i]) || 0) + 1);
   }
 
-  
   for (let [key, value] of obj1) {
     if (obj2.get(key) !== value) {
       return false;
@@ -61,9 +60,6 @@ function isAnagram(s1, s2) {
   return true;
 }
 
-
 let s1 = "rat";
 let s2 = "tar";
-console.log(isAnagram(s1, s2)); 
-
-
+console.log(isAnagram(s1, s2));
