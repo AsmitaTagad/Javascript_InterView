@@ -2,8 +2,8 @@
 // Write, Edit and Run your Javascript code using JS Online Compiler
 
  //1. create fabonacci series
-//    // 0,1 => 0+1=2, 1+2=3, 2+3=5.....[0,1,2,3,5...]
-//    const n=10;
+//    // 0,1 => 0+1=1, 1+1=2,1+2=3, 2+3=5.....[0,1,1,2,3,5...]
+//    const n=10;    
 //    const arr=[0,1]
 //    for(let i = 2; i<= n; i++){
 //        arr[i]=arr[i-1]+arr[i-2]

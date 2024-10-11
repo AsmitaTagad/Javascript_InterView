@@ -29,7 +29,7 @@ const num2 = "123";
 function findPalindromNum(num) {
   const arr = num.toString().split("");
   let me = 0;
-  let fri = arr.length- 1;
+  let fri = arr.length - 1;
   while (fri > me) {
     if (arr[me] === arr[fri]) {
       me++;
@@ -37,8 +37,6 @@ function findPalindromNum(num) {
     } else {
       return false;
     }
-  
-    
   }
   return true;
 }
