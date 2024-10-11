@@ -26,7 +26,7 @@ const person1 = {
   name: "Asmita",
 };
 
-const greet = function (greetings) {
+const greet = function (greetings) {                                         //(anonymous) function: who don't have any name
   console.log(`${greetings}, My Name is ${this.name}`);
 };
 
