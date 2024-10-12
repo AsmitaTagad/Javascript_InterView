@@ -27,3 +27,35 @@ const arrowFun = {
 };
 
 arrowFun.empName();
+
+//***doesn't have access of argument object  */
+
+const obj = {
+  name: "Asmita",
+  age: 26,
+  designation: "Software Developer",
+};
+function ArguAccess1() {
+  // console.log(arguments); //[Arguments] {
+  //                 '0': { name: 'Asmita', age: 26, designation: 'Software Developer' }
+  //               }
+
+  console.log(arguments[0].name);  //Asmita
+}
+
+const ArguAccess = () => {
+  console.log(arguments);
+};
+
+// ArguAccess1(obj);
+// ArguAccess(obj);
+
+
+//but in the arrow function we can access the argument using Rest Operator
+
+const arguAccessusingRest=(...argu)=>{
+  console.log(argu)                                     //[ { name: 'Asmita', age: 26, designation: 'Software Developer' } ]
+  console.log(argu[0].age)   //26
+}
+
+arguAccessusingRest(obj)
