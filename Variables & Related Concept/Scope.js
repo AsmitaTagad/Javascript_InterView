@@ -15,5 +15,5 @@ if (true) {
     }
     console.log(x); //10
     console.log(y);//2
-  console.log(name)  //ReferenceError: name is not defined
+//   console.log(name)  //ReferenceError: name is not defined
 
