@@ -1,0 +1,5 @@
+1. it is nothing but the collection of array inside another array.which contain rows and columns.
+example:
+[ //outer array
+[ null, null, null, null ],[ null, null, null, null ],[ null, null, null, null ],[ null, null, null, null ]   //inner array
+]
